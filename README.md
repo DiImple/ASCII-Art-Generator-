@@ -1,10 +1,11 @@
 # ASCII-Art-Generator-
 This python script is use to convert photos and video into ascii art.
 ## TABLE OF CONTENTS-
- # How to run the project with all dependencies
- # The Internal working of project
- # Learning takeaways from this project
- # References used while working on the project
+ * How to run the project with all dependencies
+ * The Internal working of project
+ * Learning takeaways from this project
+ * References used while working on the project
+ 
 ## HOW TO RUN THE PROJECT WITH ALL DEPENDENCIES-
 We need to install some python packages for the working of this project:
 * Numpy
