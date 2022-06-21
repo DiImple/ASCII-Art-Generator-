@@ -43,10 +43,10 @@ while f:
  ```
  image_array=[]
  for filename in glob.glob('outputImage/*.jpg'):
-   image=cv2.imread(filename)
-   height,width,layers=image.shape
+   myimage=cv2.imread(filename)
+   height,width,layers=myimage.shape
    size=(width,height)
-   image_array.append(image)
+   image_array.append(myimage)
    
    result=cv2.VideoWriter('OutputVideo.av1',cv2.VideoWriter_fourcc(*"DIVX"),25,size)
    
