@@ -22,7 +22,7 @@ f=1;
 while f:
   f,image=video.read()
   try:
-     cv2.imwrite("image/frame%d.jpg"%count,image)
+     cv2.imwrite("image/frame%d.jpg"%add,image)
      expect:
        break
        add=add+1
